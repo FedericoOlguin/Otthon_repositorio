@@ -257,6 +257,7 @@ html {
         font-size: 3.5rem;
         text-align: center;
         font-weight: 900;
+        padding: 1rem;
         animation: titulo;
         animation-delay: 0s;
         animation-duration: 1s;
@@ -280,7 +281,8 @@ html {
         font-size: 2rem;
     }
     .articulo__titulo--centrado {
-        margin: 1rem 0;
+        font-size: 2rem;
+        margin: 1rem 0 2rem;
         align-self: center;
         justify-self: center;
     }
@@ -397,6 +399,20 @@ html {
         padding: 0.2rem;
         text-align: center;
         border-radius: 2%;
+    }
+    /* Tabla */
+    .tabla {
+        font-size: 1.2rem;
+        justify-self: center;
+        border: 1rem #fca211 solid;
+        background-color: #14213D;
+        border-collapse: collapse;
+        z-index: 1;
+        align-self: center;
+    }
+    .tabla__td li {
+        list-style: decimal;
+        margin: 1rem;
     }
 }
 
