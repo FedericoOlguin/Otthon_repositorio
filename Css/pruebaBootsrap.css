@@ -1,0 +1,164 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cuerpo {
+    background-color: #14213d;
+    color: ivory;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+.personalizado {
+    background-image: linear-gradient(to top, #14213D, black);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.footer__backgraund {
+    background-image: linear-gradient(to bottom, #14213D, black);
+}
+
+.menu__logo {
+    width: 5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.imagen {
+    width: 18rem;
+    overflow: hidden;
+}
+
+.imagen__redes {
+    width: 2rem;
+}
+
+.link__aside {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #14213D;
+    background-color: ivory;
+    border-radius: 5%;
+    border-bottom: #fca211 solid 5px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.link__aside:hover {
+    color: #FCA311ed;
+    background-color: #141414;
+}
+
+.titulo {
+    font-weight: 900;
+    animation: titulo;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: initial;
+}
+
+.titulo__deco {
+    text-decoration: underline #FCA311ed;
+}
+
+.enfasis {
+    color: #FCA311ed;
+    font-weight: 700;
+}
+
+.link__footer {
+    color: ivory;
+    text-decoration: none;
+}
+
+.transparente {
+    background-color: transparent;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+}
+
+.dropdown-item {
+    color: ivory;
+}
+
+.dropdown-divider {
+    color: ivory;
+}
+
+.tabla__td {
+    color: ivory;
+    border-color: #FCA311ed;
+    text-align: left;
+}
+
+.tabla__th {
+    color: ivory;
+    border-bottom: solid 3px #FCA311ed;
+}
+
+.tabla__td li {
+    list-style: decimal;
+    padding: 0.5rem 0;
+}
+
+.table {
+    border-color: #FCA311ed;
+}
+
+
+/* NO FUNCIONA */
+
+
+/* .borde {
+    border-bottom: solid #FCA311ed 1px !important;
+    color: #FCA311ed;
+} */
+
+.caja {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.caja label input {
+    margin: 00.5rem;
+}
+
+.boton {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 9rem;
+    color: ivory;
+    background-color: #FCA311;
+    border: black 1px solid;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
+
+.boton:hover {
+    color: #fca211;
+    background-color: #141414;
+}
+
+.formulario__terminos {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem;
+}
