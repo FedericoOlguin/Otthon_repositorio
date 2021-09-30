@@ -10,43 +10,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/pruebaBootsrap.css">
+    <link rel="stylesheet" href="./Css/estilosConBootstrap.css">
 </head>
 
 <body class="cuerpo">
-
-
     <div class="container-fluid">
         <div class="row">
-
             <nav class="navbar navbar-expand-lg navbar-dark personalizado ">
                 <div class="container-fluid">
                     <img class="menu__logo" src="./Imagenes/1b5d676297ea430b9803658e75751638 (1).png" alt="Logo">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active deco" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./acerca_de.html">Sobre bosotros</a>
+                                <a class="nav-link active deco" href="./acerca_de.html">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./beneficios.html" tabindex="-1" aria-disabled="true">Beneficios</a>
+                                <a class="nav-link active deco" href="./beneficios.html" tabindex="-1" aria-disabled="true">Beneficios</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active deco" href="./form-contacto.html ">Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Tu cuenta
-                                    </a>
-                                <ul class="dropdown-menu transparente" aria-labelledby="navbarDropdown">
-                                    <li><a class=" dropdown-item  " href="./registro.html ">Registrarse</a></li>
-                                    <li><a class="dropdown-item " href="">Iniciar sesión</a></li>
+                                <a class="nav-link dropdown-toggle active deco" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tu cuenta
+                                </a>
+                                <ul class="dropdown-menu transparente col-6" aria-labelledby="navbarDropdown">
+                                    <li><a class=" dropdown-item  color__ivory  " href="./registro.html ">Registrarse</a></li>
                                     <li>
-                                        <hr class="dropdown-divider ">
+                                        <hr class="dropdown-divider color__ivory col-11 mx-auto">
                                     </li>
-                                    <li><a class="dropdown-item " href="./form-contacto.html ">Contacto</a></li>
+                                    <li><a class="dropdown-item color__ivory" href="">Iniciar sesión</a></li>
+
+
                                 </ul>
                             </li>
                         </ul>
@@ -66,15 +67,15 @@
 
 
         <section class="container-fluid ">
-            <div class="row justify-content-between m-md-auto">
+            <div class="row justify-content-center m-auto">
                 <p class="h1 col-xl-10 titulo text-center my-5 mx-auto">
                     Crea tu cuenta
                 </p>
                 <p class="h3 my-3 text-center">
                     Formulario de inscripcion
                 </p>
-                <form class="form-group col-12 col-sm-8 my-5" action="" method="POST">
-                    <div class="text-lefth col-lg-8 mx-auto ">
+                <form class="form-group col-12  my-5 " action="" method="POST">
+                    <div class="text-lefth col-md-6 mx-auto ">
                         <label for="name">Nombre</label>
                         <input class="form-control my-3" type="text" name="name" id="name" placeholder="Ingrese su nombre">
 
@@ -113,55 +114,33 @@
                                 condiciones
                             </label>
 
-                            <input class="boton" type="reset" value="Limpiar">
-                            <input class="boton" type="submit" value="Registrarme">
+                            <input class="boton boton px-5 py-0 m-auto my-2" type="reset" value="Limpiar">
+                            <input class="boton boton px-5 py-0 m-auto my-2" type="submit" value="Registrarme">
                         </div>
                     </div>
                 </form>
-
-                <aside class=" px-0 px-sm-0 text-center col-xl-2 col-md-6 col-sm-6 col-lg-6 mx-sm-auto mx-md-auto mx-lg-auto m-xl-0">
-                    <p class="h3 mb-4">Links útiles</p>
-                    <ul class="h4 px-4 px-sm-0">
-                        <li class="p-3">
-                            <a class="link__aside" href="http://www.bcra.gov.ar/BCRAyVos/Situacion_Crediticia.asp " target="_blank ">Verifica tus
-                                            garantes</a>
-                        </li>
-                        <li class="p-3">
-                            <a class="link__aside" href="https://www.modelocontrato.net/redactar-un-contrato-de-alquiler.html " target="_blank ">Como
-                                                redactar un contrato de alquiler</a>
-                        </li>
-                        <li class=" p-3">
-                            <a class="link__aside" href="https://www.mudanza.com.ar/empresas " target="_blank ">Empresas de mudanza en
-                                        Mendoza</a>
-                        </li>
-                        <li class=" p-3">
-                            <a class="link__aside" href="https://dequesetrata.com.ar/proyecto/camara-de-diputados/4316-d-2019-28168 " target="_blank ">Ley de
-                                alquileres y sus modificaciones</a>
-                        </li>
-                    </ul>
-                </aside>
             </div>
         </section>
     </main>
 
 
     <footer class="container-fluid text-center  footer__backgraund p-0 mt-5">
-        <h4>Nuestras redes</h4>
+        <p class="h4">Nuestras redes</p>
         <div class="col-5 text-lefth mx-auto mb-4">
             <ul class="p-0 col-md-8 m-auto">
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales.png " alt=" "> Facebook</a>
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales.png " alt=" "> Facebook</a>
                 </li>
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png " alt=" "> Instagram
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png " alt=" "> Instagram
                     </a>
                 </li>
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="https://pngimg.com/uploads/twitter/twitter_PNG29.png " alt=" "> Twitter</a>
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="https://pngimg.com/uploads/twitter/twitter_PNG29.png " alt=" "> Twitter</a>
                 </li>
             </ul>
         </div>
-        <p class="small">Otthon- Copyrigth&copy; 2021 Otthon.com</p>
+        <p class="h6">Otthon- Copyrigth&copy; 2021 Otthon.com</p>
     </footer>
 
 

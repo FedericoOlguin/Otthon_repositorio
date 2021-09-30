@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/pruebaBootsrap.css">
+    <link rel="stylesheet" href="./Css/estilosConBootstrap.css">
 
 </head>
 
@@ -26,25 +26,29 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active deco" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./acerca_de.html">Sobre bosotros</a>
+                                <a class="nav-link active deco" href="./acerca_de.html">Sobre nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./beneficios.html" tabindex="-1" aria-disabled="true">Beneficios</a>
+                                <a class="nav-link active deco" href="./beneficios.html" tabindex="-1" aria-disabled="true">Beneficios</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active deco" href="./form-contacto.html ">Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle active deco" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tu cuenta
                                 </a>
-                                <ul class="dropdown-menu transparente" aria-labelledby="navbarDropdown">
-                                    <li><a class=" dropdown-item  " href="./registro.html ">Registrarse</a></li>
-                                    <li><a class="dropdown-item " href="">Iniciar sesión</a></li>
+                                <ul class="dropdown-menu transparente col-6" aria-labelledby="navbarDropdown">
+                                    <li><a class=" dropdown-item  color__ivory  " href="./registro.html ">Registrarse</a></li>
                                     <li>
-                                        <hr class="dropdown-divider ">
+                                        <hr class="dropdown-divider color__ivory col-11 mx-auto">
                                     </li>
-                                    <li><a class="dropdown-item " href="./form-contacto.html ">Contacto</a></li>
+                                    <li><a class="dropdown-item color__ivory" href="">Iniciar sesión</a></li>
+
+
                                 </ul>
                             </li>
                         </ul>
@@ -61,61 +65,63 @@
 
         <section class="container-fluid text-center">
             <div class="row  justify-content-between m-md-auto">
-                <p class="h1 my-5 titulo col-xl-9 col-lg-11 col-md-11 col-sm-12 m-xs-2 col-lg-5 p-0 m-md-5">Bienvenidos a <span class="titulo__deco ">Otthon</span> </p>
-                <article class="col-xl-3 col-md-8 col-lg-5 mx-md-auto px-md-5 p-lg-0 m-lg-0">
+                <p class="h1 my-5 titulo col-xl-11 col-lg-11 col-md-11 col-sm-12 m-xs-2 col-lg-5 p-0 m-md-5">Bienvenidos a <span class="titulo__deco ">Otthon</span> </p>
+                <article class="col-xl-4 col-md-8 col-lg-5 mx-md-auto px-md-5 p-lg-0 m-lg-0">
                     <p class="h3 m-3">
                         ¿Eres Propietario?
                     </p>
-                    <img class="imagen " src="./Imagenes/LogoPropietario.png " alt="Mano con llave ">
+                    <img class="img-fluid imagen" src="./Imagenes/LogoPropietario.png " alt="Mano con llave ">
                     <p class="m-5">
                         En Otthon te ayudamos a <span class="enfasis">promover y administrar el alquiler de tu
                             inmueble</span>, dándote la seguridad que necesitas
                     </p>
                 </article>
 
-                <article class="col-xl-3 col-md-5 col-lg-5 p-0">
+                <article class="col-xl-4 col-md-5 col-lg-5 p-0">
                     <p class="h3 m-3">
                         ¿Eres Profesional?
                     </p>
-                    <img class="imagen " src="./Imagenes/LogoProfesional.png " alt="Manos estrechadas ">
+                    <img class="img-fluid imagen" src="./Imagenes/LogoProfesional.png " alt="Manos estrechadas ">
                     <p class="m-5">
                         Si sos <span class="enfasis ">escribano o corredor inmobiliario</span> , en Otthon podes trabajar de forma freelance y aumentar tus ingresos.
                     </p>
                 </article>
 
-                <article class="col-xl-3 col-md-5 col-lg-8  px-lg-5 px-xl-0 m-lg-auto m-xl-0 mb-5 p-0">
+                <article class="col-xl-4 col-md-5 col-lg-8  px-lg-5 px-xl-0 m-lg-auto m-xl-0 mb-5 p-0">
                     <p class="h3 m-3">
                         ¿Buscas un hogar?
                     </p>
-                    <img class="imagen " src="./Imagenes/LogoHogar.png " alt="Hogar en manos ">
+                    <img class="img-fluid imagen" src="./Imagenes/LogoHogar.png " alt="Hogar en manos ">
                     <p class="m-5">
                         Aquí te ayudamos a <span class="enfasis ">encontrar un hogar</span> , al mismo tiempo que cuidamos los costos que implica.
                     </p>
                 </article>
 
-                <aside class="col-xl-2 col-md-6 col-sm-6 col-lg-6 mx-sm-auto mx-md-auto mx-lg-auto m-xl-0">
-                    <p class="h3 mb-4">Links útiles</p>
-                    <ul class="h4 p-0 ">
-                        <li class="p-3">
-                            <a class="link__aside" href="http://www.bcra.gov.ar/BCRAyVos/Situacion_Crediticia.asp " target="_blank ">Verifica tus
-                                garantes</a>
-                        </li>
-                        <li class="p-3">
-                            <a class="link__aside" href="https://www.modelocontrato.net/redactar-un-contrato-de-alquiler.html " target="_blank ">Como
-                                redactar un contrato de alquiler</a>
-                        </li>
-                        <li class=" p-3">
-                            <a class="link__aside" href="https://www.mudanza.com.ar/empresas " target="_blank ">Empresas de mudanza en
-                                Mendoza</a>
-                        </li>
-                        <li class=" p-3">
-                            <a class="link__aside" href="https://dequesetrata.com.ar/proyecto/camara-de-diputados/4316-d-2019-28168 " target="_blank ">Ley de
-                                alquileres y sus modificaciones</a>
-                        </li>
-                    </ul>
-                </aside>
+
             </div>
         </section>
+
+        <aside class=" text-center col-9 mx-auto col-sm-4 mt-5">
+            <p class="h3 mb-4">Links útiles</p>
+            <ul class="h4 p-0 ">
+                <li class="p-3">
+                    <a class="link__aside h5" href="http://www.bcra.gov.ar/BCRAyVos/Situacion_Crediticia.asp " target="_blank ">Verifica tus
+                        garantes</a>
+                </li>
+                <li class="p-3">
+                    <a class="link__aside h5" href="https://www.modelocontrato.net/redactar-un-contrato-de-alquiler.html " target="_blank ">Como
+                        redactar un contrato de alquiler</a>
+                </li>
+                <li class=" p-3">
+                    <a class="link__aside h5" href="https://www.mudanza.com.ar/empresas " target="_blank ">Empresas de mudanza en
+                        Mendoza</a>
+                </li>
+                <li class=" p-3">
+                    <a class="link__aside h5" href="https://dequesetrata.com.ar/proyecto/camara-de-diputados/4316-d-2019-28168 " target="_blank ">Ley de
+                        alquileres y sus modificaciones</a>
+                </li>
+            </ul>
+        </aside>
 
     </main>
 
@@ -124,22 +130,22 @@
 
 
     <footer class="container-fluid text-center  footer__backgraund p-0 mt-5">
-        <h4>Nuestras redes</h4>
+        <p class="h4">Nuestras redes</p>
         <div class="col-5 text-lefth mx-auto mb-4">
             <ul class="p-0 col-md-8 m-auto">
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales.png " alt=" "> Facebook</a>
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales.png " alt=" "> Facebook</a>
                 </li>
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png " alt=" "> Instagram
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png " alt=" "> Instagram
                     </a>
                 </li>
                 <li>
-                    <a class="link__footer" href=" "><img class="imagen__redes " src="https://pngimg.com/uploads/twitter/twitter_PNG29.png " alt=" "> Twitter</a>
+                    <a class="link__footer h5" href=" "><img class="imagen__redes " src="https://pngimg.com/uploads/twitter/twitter_PNG29.png " alt=" "> Twitter</a>
                 </li>
             </ul>
         </div>
-        <p class="small">Otthon- Copyrigth&copy; 2021 Otthon.com</p>
+        <p class="h6">Otthon- Copyrigth&copy; 2021 Otthon.com</p>
     </footer>
     </div>
 

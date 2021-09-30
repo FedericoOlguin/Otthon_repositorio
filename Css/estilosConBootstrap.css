@@ -13,22 +13,23 @@
 }
 
 .cuerpo {
-    background-color: #14213d;
+    background-image: linear-gradient(to bottom, #14213D, #0F182E, black);
+    background-repeat: no-repeat;
     color: ivory;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    height: 100vh;
+}
+
+@media (min-width:1000px) {
+    .deco {
+        text-decoration: underline #FCA311ed;
+    }
 }
 
 .personalizado {
-    background-image: linear-gradient(to top, #14213D, black);
     position: sticky;
     top: 0;
     z-index: 5;
-}
-
-.footer__backgraund {
-    background-image: linear-gradient(to bottom, #14213D, black);
 }
 
 .menu__logo {
@@ -38,8 +39,12 @@
 }
 
 .imagen {
-    width: 18rem;
+    max-width: 70%;
     overflow: hidden;
+}
+
+.footer__fijo {
+    margin-top: 9.5rem;
 }
 
 .imagen__redes {
@@ -54,13 +59,15 @@
     background-color: ivory;
     border-radius: 5%;
     border-bottom: #fca211 solid 5px;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 100%;
+    transition: all 1s;
 }
 
 .link__aside:hover {
     color: #FCA311ed;
     background-color: #141414;
+    transform: scale(1.2, 1.2);
 }
 
 .titulo {
@@ -92,11 +99,7 @@
     border-left: black solid 2px;
 }
 
-.dropdown-item {
-    color: ivory;
-}
-
-.dropdown-divider {
+.color__ivory {
     color: ivory;
 }
 
@@ -108,7 +111,7 @@
 
 .tabla__th {
     color: ivory;
-    border-bottom: solid 3px #FCA311ed;
+    border-bottom: solid 1px #FCA311ed !important;
 }
 
 .tabla__td li {
@@ -116,18 +119,9 @@
     padding: 0.5rem 0;
 }
 
-.table {
+.tabla__borde {
     border-color: #FCA311ed;
 }
-
-
-/* NO FUNCIONA */
-
-
-/* .borde {
-    border-bottom: solid #FCA311ed 1px !important;
-    color: #FCA311ed;
-} */
 
 .caja {
     margin-top: 2rem;
@@ -143,12 +137,13 @@
 
 .boton {
     font-size: 1rem;
-    padding: 0.5rem;
-    width: 9rem;
+    /* padding: 0.5rem; */
+    /* width: 9rem;*/
+    height: 3rem;
     color: ivory;
     background-color: #FCA311;
     border: black 1px solid;
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
     border-radius: 5%;
 }
 
@@ -161,4 +156,13 @@
     font-weight: 500;
     font-size: 1rem;
     margin: 1rem;
+}
+
+.formulario__consulta {
+    display: block;
+    width: 100%;
+    height: 200px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 6px;
 }
