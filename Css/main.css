@@ -43,17 +43,19 @@
   border-radius: 50%;
 }
 
+.transparente {
+  background-color: transparent;
+  border-bottom: black solid 2px;
+  border-left: black solid 2px;
+}
+
+.transparente .color__ivory {
+  color: ivory;
+}
+
 .imagen {
   max-width: 70%;
   overflow: hidden;
-}
-
-.footer__fijo {
-  margin-top: 9.5rem;
-}
-
-.imagen__redes {
-  width: 2rem;
 }
 
 .link__aside {
@@ -75,10 +77,9 @@
   transition: all 1s;
 }
 
-.link__aside :hover {
+.link__aside:hover {
   color: #fca211;
   background-color: #0F182E;
-  color: #fca211;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
@@ -107,19 +108,17 @@
   font-weight: 700;
 }
 
+.footer__fijo {
+  margin-top: 9.5rem;
+}
+
+.imagen__redes {
+  width: 2rem;
+}
+
 .link__footer {
   color: ivory;
   text-decoration: none;
-}
-
-.transparente {
-  background-color: transparent;
-  border-bottom: black solid 2px;
-  border-left: black solid 2px;
-}
-
-.transparente .color__ivory {
-  color: ivory;
 }
 
 .tabla__borde {
@@ -188,10 +187,36 @@
   border-radius: 6px;
 }
 
+.primero {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.segundo {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.tercero {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.cuarto {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
 @media (min-width: 1000px) {
   .deco {
-    -webkit-text-decoration: underline #fca211;
-            text-decoration: underline #fca211;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .deco:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    overflow: visible;
   }
   .imagen {
     max-width: 50%;
