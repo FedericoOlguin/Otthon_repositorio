@@ -84,14 +84,11 @@
     &__fijo {
         margin-top: 9.5rem;
     }
-    &__ul {
-        text-align: left;
-    }
 }
 
 .imagen__redes {
     width: 2rem;
-    margin-right: 1rem;
+    margin: 0.5rem;
 }
 
 .link__footer {
@@ -162,20 +159,24 @@
 .primero {
     animation-delay: 0s;
     animation-timing-function: ease-out;
+    animation-duration: 1.5s !important;
 }
 
 .segundo {
     animation-delay: 0.5s;
     animation-timing-function: ease-out;
+    animation-duration: 1.5s !important;
 }
 
 .tercero {
     animation-delay: 1s;
     animation-timing-function: ease-out;
+    animation-duration: 1.5s !important;
 }
 
 .cuarto {
     animation-delay: 1.2s;
+    animation-duration: 1.5s !important;
 }
 
 @media (min-width:1000px) {
