@@ -203,8 +203,8 @@
           animation-delay: 0s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-duration: 1.5s !important;
-          animation-duration: 1.5s !important;
+  -webkit-animation-duration: 1.7s !important;
+          animation-duration: 1.7s !important;
 }
 
 .segundo {
@@ -212,8 +212,8 @@
           animation-delay: 0.5s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-duration: 1.5s !important;
-          animation-duration: 1.5s !important;
+  -webkit-animation-duration: 1.7s !important;
+          animation-duration: 1.7s !important;
 }
 
 .tercero {
@@ -221,15 +221,19 @@
           animation-delay: 1s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-duration: 1.5s !important;
-          animation-duration: 1.5s !important;
+  -webkit-animation-duration: 1.7s !important;
+          animation-duration: 1.7s !important;
 }
 
 .cuarto {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
-  -webkit-animation-duration: 1.5s !important;
-          animation-duration: 1.5s !important;
+  -webkit-animation-duration: 1.7s !important;
+          animation-duration: 1.7s !important;
+}
+
+.interlineado {
+  line-height: 2.5rem;
 }
 
 @media (min-width: 1000px) {
