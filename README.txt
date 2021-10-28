@@ -1,3 +1,10 @@
-Otthon es una pagina web pensada para ayudar a las personas en el ámbito inmobiliario. Tanto a propietarios, como a personas que buscan un hogar.
-Reune a propietarios, profecionales e individuos en un solo lugar para facilitar las transacciones.
-Lenguajes utilizados: HTML y CSS.
+Otthon es una plataforma que busca acercar a su hogar a las personas y facilitar la administración de inmuebles para sus propietarios.
+La idea del proyecto es facilitar las transaccione y tramites, bajando los costos de las comisiones inmobiliarias. 
+Lenguajes utilizados: HTML y SCSS.
+
+
+
+
+
+
+
